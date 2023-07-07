@@ -63,6 +63,7 @@ button{
     font-family: 'Caprasimo', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Russo One', sans-serif;
+    cursor: pointer;
 
 }
 button:hover{
