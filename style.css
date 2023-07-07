@@ -17,6 +17,7 @@
 *{
     margin: 0;
     padding: 0;
+   
     
 }
 .menu{
@@ -24,8 +25,11 @@
     list-style: none;
     
 }
+.box:hover{
+    color: yellow;
+}
 .box{
-    margin: 50px;
+    margin-right:  50px;
     color: whitesmoke;
     font-size: larger;
     font-family: 'Caprasimo', cursive;
@@ -33,4 +37,34 @@ font-family: 'Lobster', cursive;
 font-family: 'Russo One', sans-serif;
 cursor: pointer;
 
+}
+.batman-self{
+    width: 400px;
+}
+.banner{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text{
+    color: rgb(245, 237, 24);
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Russo One', sans-serif;
+    
+}
+.banner-text p{
+    font-size: 25px;
+  
+}
+button{
+    font-size: 30px;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Russo One', sans-serif;
+
+}
+button:hover{
+    background-color: yellow;
 }
