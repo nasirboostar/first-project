@@ -1,4 +1,32 @@
-.test{
-    color: green;
-    cursor: pointer;
+.menu-container{
+    height: 100px;
+    background-color: rgb(49, 48, 48);
+    color: rgb(239, 235, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    
+}
+.box{
+    margin: 50px;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Caprasimo', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Russo One', sans-serif;
 }
